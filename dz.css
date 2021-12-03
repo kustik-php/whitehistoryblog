@@ -82,10 +82,10 @@ html {
 }
 main{
 
-	position: relative;
+	position: absolute;
 	display: flex;
 	flex-direction: column;
-	margin: 3% 0% 10% 10%;
+	margin: 5% 0% 10% 10%;
 	width: 80%;
 	height: 200%;
 	
@@ -163,8 +163,8 @@ align-content: space-between;
 
 }
 .pic{
-		height: 30px;
-		width: 30px;
+		height: 2em;
+		width: 2em;
 }
 video{
 
@@ -213,10 +213,10 @@ video:hover{
 .ArticleBlockText{
 	color: inherit;
 	margin: absolute;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	top: 15px;
-	bottom: 20px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	top: 15%;
+	bottom: 5%;
 }
 .ArticleBlockSrc{
 	width: 100%;
