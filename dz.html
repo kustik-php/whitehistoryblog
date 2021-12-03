@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>whitehistoryblog</title>
+	<link rel="stylesheet" href="dz.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="whb.ico">
+	<script>
+	function play(video) {
+        video.play();
+        video.volume = 0;
+    }
+    function pause(video){
+        video.pause();
+        video.volume = 0;
+    }
+    function gor(){
+    	t1.innerHTML = "Настоящая победа только та, когда сами враги признают себя побежденными.";
+    	i1.style.filter =  "brightness(60%)";
+    	i1.style.border = "6px solid orange";
+    }
+    function gol(){
+    	t1.innerHTML = "Victoria nulla est, Quam quae confessos animo quoque subjugat hostes.";
+    	i1.style.filter =  "brightness(100%)";
+    	i1.style.border = "6px solid black";
+    }
+    function scrl(){
+    window.scrollTo(0,1000);
+    behavior:"smooth";
+}
+	</script>
+</head>
+<body>
+	<header>
+		<div class="headerBlock" onclick="scrl()">
+			<p class="elem">О проекте</p>
+		</div>
+		<div class="headerBlock">
+		<a class="headerA" href="https://vk.com/@whitehistoryblog">
+			<p class="elem">Статьи</p>
+				</a>
+		</div>
+
+		<div class="headerBlock">
+			<a class="headerA" href="https://discord.com/invite/JKh6eZRM">
+			<p class="elem">Мы в </p><p class="elem2"><img src="discord.png" alt="discord" class="pic" align="middle"></p>
+			</a>
+		</div>
+		<div class="headerBlock">
+			<a class="headerA" href="https://vk.com/whitehistoryblog">
+			<p class="elem">Мы в </p><p class="elem2"><img src="vk.png" alt="VK" class="pic" align="middle"></p>
+			</a>
+		</div>
+	</header>
+	<main>
+		<div class="mainVideo">
+			<div class="videoBlock">
+			<a class="headerA" href="https://ru.wikipedia.org/wiki/История_Древнего_Рима">
+				<div class="videoBlockText">
+					<h5>История Древнего Рима. Читать...</h5>
+				</div>
+			</a>
+				<div class="videoBlockVideo">
+					<video id="vid" onmouseover="play(this)" onmouseleave="pause(this)" muted="">
+						<source src="video_rome.mp4" type="video/mp4" >
+					</video>
+				</div>
+			</div>
+			<div class="videoBlock">
+				<a class="headerA" href="https://ru.wikipedia.org/wiki/Наполеоновские_войны">
+				<div class="videoBlockText">
+					<h5>История Наполеоновских войн. Читать...</h5>
+				</div>
+			</a>
+				<div class="videoBlockVideo">
+					<video id="vid" onmouseover="play(this)" onmouseleave="pause(this)" muted="">
+						<source src="video_army.mp4" type="video/mp4" >
+					</video>
+				</div>
+			</div>
+		</div>
+		<div class="mainArticle">
+			<a class="ArticleBlock" href="https://vk.com/@whitehistoryblog-velikaya-francuzskaya-revoluciya-1789-1799">
+			<div class="ArticleBlock">
+				<div class="ArticleBlockText">
+					История Французской Революции
+				</div>
+				<div class="ArticleBlockSrc">
+					<img src="pic_rev.jfif" class="pict">
+				</div>
+			</div>
+			</a>
+			<a class="ArticleBlock" href="https://vk.com/@whitehistoryblog-polnaya-istoriya-velikoi-otechestvennoi-voiny-chast-i">
+			<div class="ArticleBlock">
+				<div class="ArticleBlockText">
+					История Второй Мировой
+				</div>
+				<div class="ArticleBlockSrc">
+					<img src="pic_ww2.jpeg" class="pict">
+				</div>
+			</div>
+			</a>
+			<a class="ArticleBlock" href="https://vk.com/@whitehistoryblog-istoriya-odnoi-kolonialnoi-armiichast-1">
+			<div class="ArticleBlock">
+				<div class="ArticleBlockText">
+					История Колониальных войн
+				</div>
+				<div class="ArticleBlockSrc">
+					<img src="pic_col.jpg" class="pict">
+				</div>
+			</div>
+			</a>
+			<a class="ArticleBlock" href="https://vk.com/@proshloe_com-ot-zerni-kostarnoi-do-kosnoi-volshby-zapreschennye-razvleche">
+			<div class="ArticleBlock">	
+				<div class="ArticleBlockText">
+					Запрещенные игры XVII века
+				</div>
+				<div class="ArticleBlockSrc">
+					<img src="pic_gam.jfif" class="pict">
+				</div>
+			</div>
+			</a>
+		</div>
+		<div class="mainPic" >
+			<p class="txt" id="t1" onmouseover="gor()" onmouseleave="gol()"> Victoria nulla est, Quam quae confessos animo quoque subjugat hostes. <p>
+			<img src="pic_whb.jpg" class="whb" id="i1" onmouseover="gor()" onmouseleave="gol()" >
+		</div>
+		<div class="mainText">
+			<h1>WhiteHistoryBlog - историческое сообщество</h1>
+			<br>
+			<p class="TextBlock">WHB - это небольшое комьюнити, объединившееся с целью создания и продвижения контента, связанного с историей, политикой, экономикой на различных интернет площадках сервисах.</p>
+			<br>
+			<p class="TextBlock">Мы собираем весь возможный контент по вышеперечисленным темам в RU сегменте, пишем любительcкие статьи и популяризируем важные темы в наших группах в социальных сетях.</p>
+			<br>
+			<p class="TextBlock">Наше относительно небольшое содружество (насчитывающее в нашем официальном сообществе в ВК уже почти четыре тысячи человек) имеет свою долгую и обширную историю, начинающуюся с 2019 года. </p> 
+		</div>
+	</main>
+</body>
+</html>
