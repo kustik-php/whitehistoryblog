@@ -319,4 +319,56 @@ h1{
 main{
 	padding-top: 10%;
 }
+.ArticleBlock:hover{
+	color: white;
+	background-color: rgba(0,0,0, 0);;
+	opacity: 0.8;
+	cursor: pointer;
+}
+h1{
+	font-size: 135%;
+}
+.TextBlock{
+	font-size: 95%;
+}
+.whb{
+	z-index: 0;
+	width: 97.85%;
+	height: 95.7%;
+	position: relative;
+	top: 0%;
+	bottom: 0%;
+	right: 0%;
+	left: 0%;
+	border: 6px solid black;
+	background-color: black;
+}
+.elem{
+	font-size: 90%
+}
+.pic{
+		height: 1.5em;
+		width: 1.5em;
+}
+.elem2{
+	position: absolute;
+	right: 56%;
+	left: 66%;
+	bottom:20%;
+
+}
+.ArticleBlockText{
+	padding-left: 5%;
+}
+.pict{
+	margin: absolute;
+	top: 10%;
+	bottom: 5%;
+	left: 0%;
+	right: 0%;
+	width: 90%;
+	height: 85%;
+	object-fit: cover;
+}
+
 }
